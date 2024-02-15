@@ -1,0 +1,23 @@
+/* Navbar links */
+#menu-top-nav-bar a {
+  padding: .5rem;
+  color: #ffffff8c;
+  border: 0;
+  display: block;
+  text-decoration: none;
+}
+
+/* Navbar links on mouse-over */
+#menu-top-nav-bar a:hover {
+  color: #ffffffbf;
+}
+
+/* Current/active navbar link */
+#menu-top-nav-bar a.active {
+  color: #FFFFFF;
+}
+
+.active a {
+  color:#fff!important;
+  text-decoration: underline;
+}
