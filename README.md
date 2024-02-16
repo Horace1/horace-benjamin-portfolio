@@ -11,7 +11,7 @@ Welcome to my personal portfolio, meticulously crafted from HTML to WordPress us
 - Backend: Powered by WordPress for robust content management and dynamic functionality.
 
 # website
-Explore my portfolio at [horacebenjamin.com](http://horacebenjamin.com) and witness the embodiment of my skills and passion for web development.
+Explore my portfolio at [horacebenjamin.com](http://horacebenjamin.com){:target="_blank"} and witness the embodiment of my skills and passion for web development.
 
 
 
