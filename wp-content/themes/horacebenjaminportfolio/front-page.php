@@ -51,7 +51,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h1 class="display-5 fw-bold text-white pt-3">Horace Benjamin Portfolio</h1>
                     <p class="col-md-8 fs-4 text-white">I am a Web developer based in Sheffield specialising in Website and Web Application Development.</p>
-                    <a class="btn btn-custom-yellow btn-lg" href="<?php echo get_template_directory_uri(); ?>/assets/files/Horace-Benjamin-CV.docx" title="Downloads CV" download>Download CV</a>
+                    <a class="btn btn-custom-yellow btn-lg" href="<?php echo get_template_directory_uri(); ?>/assets/files/Horace-Benjamin-CV.pdf" title="Downloads CV" download>Download CV</a>
                 </div>
             </div>
         </div>
@@ -66,22 +66,51 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h2>My Skills</h2>
-                    <div class="skills pt-3">
-                        <div class="skills__skill"><i class="fa-brands fa-html5"></i></i> HTML 5</div>
-                        <div class="skills__skill"><i class="fa-brands fa-css3-alt"></i> CSS 3</div>
-                        <div class="skills__skill"><i class="fa-brands fa-sass"></i> Sass</div>
-                        <div class="skills__skill"><i class="fa-brands fa-js"></i> JavaScript</div>
-                        <div class="skills__skill"><i class="fa-brands fa-laravel"></i> Laravel</div>
-                        <div class="skills__skill"><i class="fa-brands fa-php"></i> PHP</div>
-                        <div class="skills__skill"><i class="fa-brands fa-wordpress"></i> WordPress</div>
-                        <div class="skills__skill"><i class="fa-brands fa-git"></i> Git</div>
-                        <div class="skills__skill"><i class="fa-brands fa-github"></i> Git Hub</div>
-                        <div class="skills__skill"><i class="fa-brands fa-bitbucket"></i> Bitbucket</div>
-                        <div class="skills__skill"><i class="fa-brands fa-sourcetree"></i> SourceTree</div>
-                        <div class="skills__skill"><i class="fa-solid fa-database"></i> Mysql</div>
-                        <div class="skills__skill"><i class="fa-brands fa-vuejs"></i> Vue.js</div>
-                        <div class="skills__skill"><i class="fa-brands fa-ubuntu"></i> Ubuntu</div>
-                        <div class="skills__skill"><i class="fa-solid fa-terminal"></i> Terminal</div>
+                    <div class="skills">
+                        <div class="skills__section">
+                            <h5 class="skills__heading">Frontend</h5>
+                            <div class="skills__group">
+                                <div class="skills__row">
+                                    <div class="skills__skill"><i class="fa-brands fa-html5"></i> HTML 5</div>
+                                    <div class="skills__skill"><i class="fa-brands fa-css3-alt"></i> CSS 3</div>
+                                </div>
+                                <div class="skills__row">
+                                    <div class="skills__skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+                                    <div class="skills__skill"><i class="fa-brands fa-sass"></i> Sass</div>
+                                 </div>
+                                <div class="skills__row">
+                                    <div class="skills__skill"><i class="fa-brands fa-vuejs"></i> Vue.js</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__section">
+                            <h5 class="skills__heading">Backend</h5>
+                            <div class="skills__group">
+                                <div class="skills__row">
+                                    <div class="skills__skill"><i class="fa-brands fa-php"></i> PHP</div>
+                                    <div class="skills__skill"><i class="fa-brands fa-laravel"></i> Laravel</div>
+                                </div>
+                                <div class="skills__row">
+                                    <div class="skills__skill"><i class="fa-solid fa-database"></i> MySQL</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__section">
+                            <h5 class="skills__heading">Tools & Platforms</h5>
+                            <div class="skills__group">
+                                <div class="skills__row">
+                                    <div class="skills__skill"><i class="fa-brands fa-git"></i> Git</div>
+                                    <div class="skills__skill"><i class="fa-brands fa-github"></i> GitHub</div>
+                                </div>
+                                <div class="skills__row">
+                                    <div class="skills__skill"><i class="fa-brands fa-bitbucket"></i> Bitbucket</div>
+                                    <div class="skills__skill"><i class="fa-brands fa-sourcetree"></i> SourceTree</div>
+                                </div>
+                                <div class="skills__row">
+                                    <div class="skills__skill"><i class="fa-brands fa-wordpress"></i> WordPress</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
